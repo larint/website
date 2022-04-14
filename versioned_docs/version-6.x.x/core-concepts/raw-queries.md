@@ -18,7 +18,7 @@ In cases where you don't need to access the metadata you can pass in a query typ
 const { QueryTypes } = require('sequelize');
 const users = await sequelize.query("SELECT * FROM `users`", { type: QueryTypes.SELECT });
 // We didn't need to destructure the result here - the results were returned directly
-```
+```htyhtyhhyhthyhtyhtyhyhyhyh
 
 Several other query types are available. [Peek into the source for details](https://github.com/sequelize/sequelize/blob/main/src/query-types.ts).
 
